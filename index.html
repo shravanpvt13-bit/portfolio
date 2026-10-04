@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Metadata -->
+    <title>Shravan S Neeralagi | BTech CSE Student & Aspiring Developer</title>
+    <meta name="description" content="Personal portfolio of Shravan S Neeralagi, BTech Computer Science student and aspiring software and web developer. Explore my projects, skills, and coding activity." />
+    <meta name="keywords" content="Shravan S Neeralagi, Shravan, Portfolio, BTech CSE, Web Developer, Python Developer, Software Engineer, Projects" />
+    <meta name="author" content="Shravan S Neeralagi" />
+    <meta name="theme-color" content="#0b0f19" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shravan S Neeralagi | BTech CSE Student & Aspiring Developer" />
+    <meta property="og:description" content="Explore my projects in Web Development, Python, IoT, and software systems." />
+    <meta property="og:url" content="https://shravan.dev" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-dark text-light antialiased selection-accent">
+    <!-- Skip to main content for accessibility -->
+    <a href="#hero" class="skip-link">Skip to main content</a>
+
+    <!-- Top Navigation Header -->
+    <header id="site-header" class="site-header">
+      <div class="nav-container">
+        <!-- Logo / Monogram -->
+        <a href="#hero" class="brand-logo" aria-label="Shravan S Neeralagi Home">
+          <span class="logo-code-bracket">&lt;</span>
+          <span class="logo-name">Shravan</span>
+          <span class="logo-code-bracket">/&gt;</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#github" class="nav-link">GitHub</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Header CTA Actions -->
+        <div class="header-actions">
+          <a href="#contact" class="btn btn-sm btn-primary header-cta">
+            <span>Get in Touch</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-btn" class="mobile-toggle-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Nav Drawer -->
+      <div id="mobile-nav-drawer" class="mobile-nav-drawer" aria-hidden="true">
+        <ul class="mobile-nav-list">
+          <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+          <li><a href="#about" class="mobile-nav-link">About</a></li>
+          <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+          <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+          <li><a href="#github" class="mobile-nav-link">GitHub</a></li>
+          <li><a href="#education" class="mobile-nav-link">Education</a></li>
+          <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+          <a href="#contact" class="btn btn-primary w-full text-center">Get in Touch</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main id="main-content">
+      <!-- HERO SECTION -->
+      <section id="hero" class="section hero-section">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <!-- Availability Badge -->
+            <div class="status-badge" role="status">
+              <span class="pulse-dot"></span>
+              <span class="status-text" id="hero-status-text">Available for Internships & Projects</span>
+            </div>
+
+            <!-- Headline -->
+            <h1 class="hero-title">
+              Hi, I'm <span class="text-gradient" id="hero-name">Shravan S Neeralagi</span> <span class="wave-emoji" aria-hidden="true">👋</span>
+            </h1>
+
+            <!-- Subtitle -->
+            <h2 class="hero-subtitle" id="hero-title-text">
+              BTech CSE Student <span class="divider">|</span> Aspiring Software & Web Developer
+            </h2>
+
+            <!-- Summary Intro -->
+            <p class="hero-description" id="hero-tagline">
+              I build modern web applications, Python systems, and explore software development. Focused on practical problem solving and learning through real-world projects.
+            </p>
+
+            <!-- Call-to-action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Projects</span>
+                <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+
+              <a id="hero-github-btn" href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+                <span>GitHub Profile</span>
+              </a>
+
+              <a href="#contact" class="btn btn-ghost">
+                <span>Contact Me</span>
+              </a>
+            </div>
+
+            <!-- Quick Key Highlights Bar -->
+            <div class="hero-metrics">
+              <div class="metric-item">
+                <span class="metric-label">Status</span>
+                <span class="metric-value">BTech CSE</span>
+              </div>
+              <div class="metric-divider"></div>
+              <div class="metric-item">
+                <span class="metric-label">Primary Stack</span>
+                <span class="metric-value">Python, Web & C++</span>
+              </div>
+              <div class="metric-divider"></div>
+              <div class="metric-item">
+                <span class="metric-label">Focus</span>
+                <span class="metric-value">Practical Building</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Terminal / Code Showcase Card -->
+          <div class="hero-visual">
+            <div class="terminal-card">
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <div class="terminal-title">shravan@dev: ~</div>
+                <div class="terminal-action-btn" id="terminal-copy-info" title="Copy profile summary">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="terminal-body">
+                <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></div>
+                <div class="terminal-output t-name">Shravan S Neeralagi</div>
+                
+                <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">cat role.json</span></div>
+                <div class="terminal-output code-block">
+<span class="t-key">"role"</span>: <span class="t-str">"Student & Aspiring Developer"</span>,
+<span class="t-key">"degree"</span>: <span class="t-str">"BTech Computer Science"</span>,
+<span class="t-key">"languages"</span>: [<span class="t-str">"Python"</span>, <span class="t-str">"C++"</span>, <span class="t-str">"JavaScript"</span>, <span class="t-str">"C"</span>],
+<span class="t-key">"interests"</span>: [<span class="t-str">"Web Dev"</span>, <span class="t-str">"APIs"</span>, <span class="t-str">"IoT Automation"</span>],
+<span class="t-key">"open_to"</span>: <span class="t-str">"Internships & Collaborations"</span>
+                </div>
+
+                <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">shravan.status()</span></div>
+                <div class="terminal-output t-status"><span class="t-accent">●</span> Actively writing code and solving problems...</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Profile</span>
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">
+              A computer science student who believes in understanding fundamentals and learning by building.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <!-- Narrative Column -->
+            <div class="about-narrative card">
+              <div class="about-card-badge">
+                <span class="badge-dot"></span>
+                <span>My Journey & Philosophy</span>
+              </div>
+              <div class="narrative-text" id="about-paragraphs-container">
+                <!-- Dynamically populated or rendered -->
+              </div>
+
+              <!-- Quick Highlights List -->
+              <div class="about-checkmarks">
+                <div class="check-item">
+                  <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span>Passionate about building real-world software applications</span>
+                </div>
+                <div class="check-item">
+                  <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span>Strengthening core programming & algorithmic logic</span>
+                </div>
+                <div class="check-item">
+                  <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span>Exploring modern web development & Python systems</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pillars Grid -->
+            <div class="about-pillars" id="about-pillars-container">
+              <!-- Dynamically rendered from config -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Capabilities</span>
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">
+              Technologies and tools I work with as a student actively learning, building projects, and expanding my toolkit.
+            </p>
+          </div>
+
+          <!-- Skills Grid -->
+          <div class="skills-category-grid" id="skills-container">
+            <!-- Dynamically populated from config.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+              A collection of software, web development, and hardware projects. Each project is crafted with clean logic and practical functionality.
+            </p>
+          </div>
+
+          <!-- Project Filter Controls -->
+          <div class="filter-wrapper">
+            <div class="filter-tabs" id="project-filters" role="tablist" aria-label="Filter Projects">
+              <!-- Dynamically populated from projectCategories -->
+            </div>
+          </div>
+
+          <!-- Projects Grid -->
+          <div class="projects-grid" id="projects-container">
+            <!-- Dynamically rendered project cards -->
+          </div>
+
+          <!-- Easy Customization Notice -->
+          <div class="customization-notice card">
+            <div class="notice-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            </div>
+            <div class="notice-text">
+              <h4 class="notice-title">Easily Editable Projects</h4>
+              <p class="notice-desc">All project data, titles, descriptions, and URLs are stored cleanly in <code class="code-inline">src/config.js</code> so you can seamlessly link your real GitHub repositories anytime!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GITHUB / CODING ACTIVITY SECTION -->
+      <section id="github" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Open Source</span>
+            <h2 class="section-title">GitHub & Coding Activity</h2>
+            <p class="section-subtitle">
+              My software development journey in code, repositories, and continuous learning.
+            </p>
+          </div>
+
+          <div class="github-showcase card">
+            <!-- Profile Top Bar -->
+            <div class="gh-profile-header">
+              <div class="gh-user-identity">
+                <div class="gh-avatar">
+                  <span id="gh-avatar-initials">SN</span>
+                </div>
+                <div class="gh-user-meta">
+                  <div class="gh-name-row">
+                    <h3 class="gh-display-name" id="gh-name">Shravan S Neeralagi</h3>
+                    <span class="gh-badge">Student Developer</span>
+                  </div>
+                  <a id="gh-handle-link" href="https://github.com" target="_blank" rel="noopener noreferrer" class="gh-username">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                    <span id="gh-username">@shravan-sn</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="gh-actions">
+                <a id="gh-profile-btn" href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <span>Visit GitHub</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14">
+                    <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="gh-stats-bar" id="gh-stats-container">
+              <!-- Dynamically populated from config.js -->
+            </div>
+
+            <!-- Contribution Grid Activity Visualizer -->
+            <div class="gh-heatmap-card">
+              <div class="heatmap-header">
+                <div class="heatmap-title">Contribution Activity</div>
+                <div class="heatmap-legend">
+                  <span>Less</span>
+                  <div class="legend-cell level-0"></div>
+                  <div class="legend-cell level-1"></div>
+                  <div class="legend-cell level-2"></div>
+                  <div class="legend-cell level-3"></div>
+                  <div class="legend-cell level-4"></div>
+                  <span>More</span>
+                </div>
+              </div>
+
+              <!-- Heatmap Grid SVG / Cells -->
+              <div class="heatmap-grid" id="heatmap-grid" aria-label="Annual Contribution Heatmap">
+                <!-- Programmatically generated activity cells -->
+              </div>
+            </div>
+
+            <!-- Pinned Repositories Grid -->
+            <div class="gh-pinned-section">
+              <h4 class="pinned-heading">Featured Repositories</h4>
+              <div class="pinned-grid" id="pinned-repos-container">
+                <!-- Dynamically populated from config.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION SECTION -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Background</span>
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">
+              Academic foundation in Computer Science & Engineering, core disciplines, and coursework.
+            </p>
+          </div>
+
+          <div class="education-card card">
+            <div class="edu-top">
+              <div class="edu-icon-badge">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="edu-heading-meta">
+                <div class="edu-header-row">
+                  <h3 class="edu-degree" id="edu-degree">Bachelor of Technology (BTech) in Computer Science</h3>
+                  <span class="edu-period-badge" id="edu-period">2023 – 2027</span>
+                </div>
+                <p class="edu-institution" id="edu-institution">Engineering College / University</p>
+                <p class="edu-desc" id="edu-desc">
+                  Pursuing deep study in computer science fundamentals, software engineering, algorithms, and system architectures.
+                </p>
+              </div>
+            </div>
+
+            <!-- Coursework Section -->
+            <div class="edu-coursework-section">
+              <h4 class="edu-subheading">Key Relevant Coursework</h4>
+              <div class="coursework-tags" id="coursework-container">
+                <!-- Dynamically populated from config.js -->
+              </div>
+            </div>
+
+            <!-- Highlights -->
+            <div class="edu-highlights-section">
+              <h4 class="edu-subheading">Academic Focus & Highlights</h4>
+              <ul class="edu-highlights-list" id="edu-highlights-container">
+                <!-- Dynamically populated from config.js -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-eyebrow">Connect</span>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+              Have an internship opportunity, project idea, or just want to connect? My inbox is always open.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Details Card -->
+            <div class="contact-info-card card">
+              <h3 class="contact-card-title">Let's build something together</h3>
+              <p class="contact-card-desc">
+                I am currently open to developer internships, project collaborations, and junior engineering opportunities.
+              </p>
+
+              <div class="contact-methods">
+                <!-- Email with Instant Copy Action -->
+                <div class="contact-method-item">
+                  <div class="method-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Direct Email</span>
+                    <span class="method-value" id="contact-email-text">your-email@gmail.com</span>
+                  </div>
+                  <button id="copy-email-btn" class="copy-btn" title="Copy email address" aria-label="Copy email address">
+                    <svg class="copy-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                    <span class="copy-tooltip">Copy</span>
+                  </button>
+                </div>
+
+                <!-- Location -->
+                <div class="contact-method-item">
+                  <div class="method-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="method-details">
+                    <span class="method-label">Location</span>
+                    <span class="method-value" id="contact-location-text">India</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-links-block">
+                <span class="social-label">Find Me Online</span>
+                <div class="social-links-row">
+                  <a id="social-gh-link" href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                    <span>GitHub</span>
+                  </a>
+
+                  <a id="social-li-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9h2.79v8.37H6.46V10.9M7.86 6.34a1.64 1.64 0 0 0-1.66 1.64c0 .91.74 1.64 1.66 1.64 1 0 1.66-.73 1.66-1.64 0-.9-.66-1.64-1.66-1.64Z"/></svg>
+                    <span>LinkedIn</span>
+                  </a>
+
+                  <a id="social-mail-link" href="mailto:your-email@gmail.com" class="social-btn" aria-label="Send Email">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>Email</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Message Form -->
+            <div class="contact-form-card card">
+              <h3 class="form-title">Send a Quick Message</h3>
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name</label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Alex Morgan" required />
+                  <span class="field-error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email-input" class="form-label">Your Email</label>
+                  <input type="email" id="contact-email-input" name="email" class="form-input" placeholder="alex@example.com" required />
+                  <span class="field-error" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject</label>
+                  <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Internship Inquiry / Project Discussion" required />
+                  <span class="field-error" id="subject-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message</label>
+                  <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Hi Shravan, I came across your portfolio and would like to connect regarding..." required></textarea>
+                  <span class="field-error" id="message-error"></span>
+                </div>
+
+                <button type="submit" id="contact-submit-btn" class="btn btn-primary w-full">
+                  <span>Send Message</span>
+                  <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                    <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                  </svg>
+                </button>
+
+                <div id="form-status-alert" class="form-status-alert" style="display: none;"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <span class="logo-code-bracket">&lt;</span>
+            <span>Shravan S Neeralagi</span>
+            <span class="logo-code-bracket">/&gt;</span>
+          </a>
+          <p class="footer-tagline">BTech CSE Student & Aspiring Software / Web Developer</p>
+        </div>
+
+        <div class="footer-links">
+          <ul class="footer-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright-text">
+            &copy; <span id="current-year">2026</span> Shravan S Neeralagi. Built with clean code & modern web standards.
+          </p>
+          <a href="#hero" class="back-to-top-btn" aria-label="Back to top">
+            <span>Back to top</span>
+            <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+              <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast Notification Overlay -->
+    <div id="toast" class="toast-notification" role="status" aria-live="polite">
+      <svg class="toast-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+      </svg>
+      <span id="toast-message">Copied to clipboard!</span>
+    </div>
+
+    <!-- Application Script -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
